@@ -116,7 +116,7 @@ void pattern10(int n){
         cout << endl;
     }
 }
-void pattern11(int n) {
+void pattern10_part2(int n){
     
 }
 int main(){
