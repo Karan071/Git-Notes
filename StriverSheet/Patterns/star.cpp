@@ -117,7 +117,6 @@ void pattern10(int n){
     }
 }
 void pattern10_part2(int n){
-    
 }
 int main(){
     int n = 5;
