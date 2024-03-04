@@ -22,16 +22,22 @@ window.func(); //here it'll give windowObject
 
 
 //this inside a object's method
-const obj = {
-    a: 10,
-    x: function () {
-        console.log(`x is function inside an object : and its called Method`);
+const student = {
+    name : `Karan Chourasia`,
+    printName : function () {
+        console.log(this.name); // will refer the value of a in the obj; 
+        //console.log(this); // will refer as the obj object
     }
 }
 //note-> if a function is called inside a object it is called method; 
+student.printName(); // object
 
-//call apply bind methods(sharing methods)
+const Student2 = {
+    name : `Nandinee`
+};
 
+//call,apply,bind methods(sharing methods)
+student.printName.call(Student2);
 
 //this inside arrow functions
 
