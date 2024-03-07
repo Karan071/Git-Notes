@@ -13,5 +13,6 @@ const name2 = {
 }
 
 //function borrowing
-//callf method 
+//call method 
 name.printName.call(name2);
+
